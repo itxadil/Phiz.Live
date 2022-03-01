@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\hp g4\.gradle\caches\transforms-2\files-2.1\09f162c30bd34043613fff612ffb52d8\exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\hp g4\.gradle\caches\transforms-2\files-2.1\09f162c30bd34043613fff612ffb52d8\exoplayer-core-2.14.1\AndroidManifest.xml:24:22-76
+16
+17    <application
+17-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:9:5-30:19
+18        android:name="io.flutter.app.FlutterApplication"
+18-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:10:9-57
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\hp g4\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="Phiz.live" >
+22-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:11:9-34
+23        <activity
+23-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:13:9-24:20
+24            android:name="com.example.helloworld.MainActivity"
+24-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:14:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:17:13-163
+26            android:hardwareAccelerated="true"
+26-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:18:13-47
+27            android:launchMode="singleTop"
+27-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:15:13-43
+28            android:theme="@style/LaunchTheme"
+28-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:16:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:19:13-55
+30            <intent-filter>
+30-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:20:13-23:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:21:17-68
+31-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:22:17-76
+33-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:22:27-74
+34            </intent-filter>
+35        </activity>
+36        <!--
+37             Don't delete the meta-data below.
+38             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+39        -->
+40        <meta-data
+40-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:27:9-29:33
+41            android:name="flutterEmbedding"
+41-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:28:13-44
+42            android:value="2" />
+42-->C:\Users\hp g4\Desktop\flutter\new\android\app\src\main\AndroidManifest.xml:29:13-30
+43    </application>
+44
+45</manifest>
